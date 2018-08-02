@@ -6,5 +6,6 @@ install:
   - pip install pytest
   - pip install pytest-cov
   - pip install coveralls
+script: python test_math.py
 after_success:
 - coveralls
