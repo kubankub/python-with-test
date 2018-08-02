@@ -6,8 +6,6 @@ install:
   - pip install pytest
   - pip install pytest-cov
   - pip install coveralls
-before_script:
-  - python bin/generate.py
 script:
   - pytest --cov=cat/
 after_success:
